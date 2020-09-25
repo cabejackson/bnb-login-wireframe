@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Welcome to Bowties & Books!</h1>
+            <ul id="menu">
+                <!-- links in nav would route to dif pages -->
+                <li><a href="#login">LOGIN</a></li>
+                <li><a href="#sign-up">SIGN-UP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- start of user login page -->
+        <div>
+            <form>
+                <h2>Login to your account below!</h2>
+                <input name='email' type='email' required />
+                <label for='email'>Email</label><br>
+                <input name='password' type='password' required />
+                <label for='password'>Password</label><br>
+                <button id='submit-login' type='submit'>LOGIN</button>
+            </form>
+        </div>
+        <!-- end of user login page -->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
